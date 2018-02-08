@@ -1,0 +1,52 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+
+\begin{document}
+
+\author{Alejandro Reyes Peña\\Jhon J. Castellanos\\Juan Felipe Arevalo}
+\title{Scriptor}
+\date{Febrero 2018}
+
+\frontmatter
+\maketitle
+\tableofcontents
+
+\mainmatter
+\part{Contexto}
+\include{contexto/proyecto}
+\include{contexto/metodologia}
+
+\part{Arquitecura}
+\include{arquitecura/Organizacion}
+\include{arquitecura/ADM}
+\include{arquitecura/negocio}
+\include{arquitecura/aplicacion}
+\include{arquitecura/tecnologia}
+\include{arquitecura/motivacion}
+\include{arquitecura/migracion}
+
+\part{Diseño}
+\include{diseno/casos}
+\include{diseno/interacciones}
+\include{diseno/clases}
+\include{diseno/estados}
+\include{diseno/actividades}
+\include{diseno/sistemas}
+\include{diseno/componentes}
+\include{diseno/nodos}
+
+\include{diseno/patrones}
+
+\part{Reflexiones}
+\include{reflexiones/conclusiones}
+\include{reflexiones/trabajos futuros}
+\include{anexos/anexos}
+
+\backmatter
+% bibliography, glossary and index would go here.
+\bibliographystyle{plain}
+\bibliography{bibliografia/libros,bibliografia/articulos}
+
+\end{document}
