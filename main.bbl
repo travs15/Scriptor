@@ -1,21 +1,3 @@
-\begin{thebibliography}{1}
-
-\bibitem{LBol}
-S.~Bolaños.
-\newblock {\em Metaproceso}.
-
-\bibitem{AIsh}
-N.~Ishihara, N.~Funabiki, M.~Kuribayashi, and W.~C. Kao.
-\newblock A proposal of software architecture for java programming learning
-  assistant system.
-\newblock In {\em 2017 IEEE 31st International Conference on Advanced
-  Information Networking and Applications (AINA)}, pages 64--70, March 2017.
-
-\bibitem{ATak}
-M.~Takata, Y.~Miyata, and N.~Nishikawa.
-\newblock Proposal of analytics software architecture with data preparation
-  layer for fast event identification in wide-area situational awareness.
-\newblock In {\em 2015 IEEE International Conference on Industrial Technology
-  (ICIT)}, pages 1741--1746, March 2015.
+\begin{thebibliography}{}
 
 \end{thebibliography}
